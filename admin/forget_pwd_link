@@ -1,0 +1,10 @@
+forget_pwd_link
+default 0
+now when he clicks on forget password
+update forget_pwd_link = 1
+
+
+click on email link
+setpwd.php
+if forget_pwd_link = 1
+update forget_pwd_link = 2
