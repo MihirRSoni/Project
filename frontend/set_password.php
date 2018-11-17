@@ -18,7 +18,7 @@ if(!empty($_POST))
      $sql = "SELECT * FROM user WHERE emailid ='".$emailid."'";
   //echo $sql; die;
       $result = $conn->query($sql);
-      //echo '<pre>';
+      //echo '<pre> this is demo change';
       //print_r($result); die;
       if ($result->num_rows > 0) 
       {
